@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConverterStates>
+    <ConverterState name="Initial State">
+        <Amount>100</Amount>
+        <ConverterFrom>RUB</ConverterFrom>
+        <ConverterTo>USD</ConverterTo>
+        <SourceCode>card</SourceCode>
+        <DestinationCode>account</DestinationCode>
+        <ExchangeType>ibank</ExchangeType>
+        <ServicePack>empty</ServicePack>
+        <ConverterDateSelect>current</ConverterDateSelect>
+    </ConverterState>
+    <ConverterState name="Test State1">
+        <Amount>500</Amount>
+        <ConverterFrom>EUR</ConverterFrom>
+        <ConverterTo>USD</ConverterTo>
+        <SourceCode>cash</SourceCode>
+        <DestinationCode>cash</DestinationCode>
+        <ExchangeType>office</ExchangeType>
+        <ServicePack>empty</ServicePack>
+        <ConverterDateSelect>current</ConverterDateSelect>
+    </ConverterState>
+    <ConverterState name="Cross Rate State 1">
+        <Amount>758.57</Amount>
+        <ConverterFrom>EUR</ConverterFrom>
+        <ConverterTo>USD</ConverterTo>
+        <SourceCode>card</SourceCode>
+        <DestinationCode>account</DestinationCode>
+        <ExchangeType>ibank</ExchangeType>
+        <ServicePack>empty</ServicePack>
+        <ConverterDateSelect>current</ConverterDateSelect>
+    </ConverterState>
+    <ConverterState name="Cross Rate State 2">
+        <Amount>1200</Amount>
+        <ConverterFrom>JPY</ConverterFrom>
+        <ConverterTo>CHF</ConverterTo>
+        <SourceCode>cash</SourceCode>
+        <DestinationCode>cash</DestinationCode>
+        <ExchangeType>office</ExchangeType>
+        <ServicePack>first</ServicePack>
+        <ConverterDateSelect>current</ConverterDateSelect>
+    </ConverterState>
+</ConverterStates>
