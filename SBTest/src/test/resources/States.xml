@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ConverterStates>
+    <ConverterState name="Template">
+        <Amount></Amount>
+        <ConverterFrom></ConverterFrom> <!-- Possible values: RUB, CHF, EUR, GBP, JPY, USD -->
+        <ConverterTo></ConverterTo> <!-- Possible values: RUB, CHF, EUR, GBP, JPY, USD -->
+        <SourceCode></SourceCode> <!-- Possible values: card, account, cash-->
+        <DestinationCode></DestinationCode> <!-- Possible values: card, account, cash-->
+        <ExchangeType></ExchangeType> <!-- Possible values: ibank, office, atm-->
+        <ServicePack></ServicePack> <!-- Possible values: empty, premier, first-->
+        <ConverterDateSelect></ConverterDateSelect> <!-- Possible values: current, select-->
+    </ConverterState>
     <ConverterState name="Initial State">
         <Amount>100</Amount>
         <ConverterFrom>RUB</ConverterFrom>
